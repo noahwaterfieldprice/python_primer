@@ -1,3 +1,4 @@
+# Exercise 3.29
 def L(x, n):
     term = x / (1. + x)
     s = term

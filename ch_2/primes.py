@@ -1,3 +1,4 @@
+# Exercise 2.8
 primes = [2, 3, 5, 7, 11, 13]
 
 for prime in primes:

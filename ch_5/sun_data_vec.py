@@ -1,3 +1,4 @@
+# Exercise 5.8
 import numpy as np
 
 data = np.array([

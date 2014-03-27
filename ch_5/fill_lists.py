@@ -1,3 +1,4 @@
+# Exercise 5.1
 from numpy import sqrt, exp, pi
 from matplotlib.pyplot import plot, show
 

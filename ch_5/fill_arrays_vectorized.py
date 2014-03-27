@@ -1,3 +1,4 @@
+# Exercise 5.3
 from numpy import sqrt, exp, pi, linspace
 from matplotlib.pyplot import plot, show
 

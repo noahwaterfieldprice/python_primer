@@ -1,3 +1,4 @@
+# Exercise 1.11
 from math import pi
 
 C_D = 0.2  # Drag coefficient

@@ -1,3 +1,4 @@
+# Exercise 2.10
 h = 0.01
 x = []
 for i in range(0, 101):

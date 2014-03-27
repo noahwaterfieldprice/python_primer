@@ -1,3 +1,4 @@
+# Exercise 3.4
 def mysum(L):
     s = 0
     for e in L:

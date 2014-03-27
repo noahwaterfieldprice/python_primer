@@ -1,3 +1,4 @@
+# Exercise 3.20
 from math import exp
 
 

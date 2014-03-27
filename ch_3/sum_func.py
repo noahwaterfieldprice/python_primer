@@ -1,3 +1,4 @@
+# Exercise 3.2
 def sum_1_div_k(M=100):
     s = 0
     k = 1

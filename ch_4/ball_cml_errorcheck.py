@@ -1,3 +1,4 @@
+# Exercise 4.9
 import sys
 g = 9.81
 try:

@@ -1,3 +1,4 @@
+# Exercise 5.25
 from scitools.std import linspace, exp, sqrt, cos, log, pi, movie, plot
 
 

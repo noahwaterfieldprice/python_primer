@@ -1,3 +1,4 @@
+# Exercise 3.14
 from math import sqrt, exp, pi
 
 

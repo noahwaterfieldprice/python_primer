@@ -1,3 +1,4 @@
+# Exercise 5.6
 from numpy import cos, sin, exp, array, zeros, meshgrid
 
 x = array([0, 2])

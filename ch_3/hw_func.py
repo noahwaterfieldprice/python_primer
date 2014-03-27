@@ -1,3 +1,4 @@
+# Exercise 3.12
 def hw1():
     return 'Hello, World!'
 

@@ -1,3 +1,4 @@
+# Example 4.6.2 - Bisection Root Finding (File Implementation)
 from bisection import bisection
 from math import sin
 

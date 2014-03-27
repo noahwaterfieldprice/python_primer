@@ -1,3 +1,6 @@
+# Example 4.6.2 - Bisection Root Finding (Module)
+
+
 def bisection(f, a, b, eps):
     fa = f(a)
     if fa * f(b) > 0:

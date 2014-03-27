@@ -1,3 +1,4 @@
+# Exercise 5.26
 from scitools.std import sqrt, pi, cos, sin, plot, movie
 import glob
 import os

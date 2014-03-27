@@ -1,3 +1,4 @@
+# Exercise 3.6
 from scipy.integrate import quad
 from scipy import exp, pi, cos, sin, log
 

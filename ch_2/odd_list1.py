@@ -1,3 +1,4 @@
+# Exercise 2.4
 n = 12
 i = 0
 odd_nos = []

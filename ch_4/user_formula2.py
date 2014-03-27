@@ -1,3 +1,4 @@
+# Exercise 4.13
 from scitools.StringFunction import StringFunction
 from math import *
 

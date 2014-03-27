@@ -1,3 +1,4 @@
+# Exercise 4.1
 F = raw_input("Enter a temperature in Fahrenheit:\n")
 F = float(F)
 C = 5 / 9. * (F - 32)

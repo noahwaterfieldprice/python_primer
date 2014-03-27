@@ -1,3 +1,4 @@
+# Exercise 2.23
 eps = 1.0
 while 1.0 != 1.0 + eps:
     print '...............', eps

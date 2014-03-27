@@ -1,3 +1,4 @@
+# Exercise 3.31
 def L3(x, n=None, epsilon=None, return_n=False):
     if (n is None and epsilon is None) or \
             (n is not None and epsilon is not None):

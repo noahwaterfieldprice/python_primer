@@ -1,3 +1,4 @@
+# Exercise 4.24
 import sys
 
 

@@ -1,3 +1,4 @@
+# Exercise 3.26
 def indicator1(x, a, b):
     if a <= x <= b:
         return 1

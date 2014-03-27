@@ -1,3 +1,4 @@
+# Exercise 5.2
 from numpy import sqrt, exp, pi, linspace, zeros
 from matplotlib.pyplot import plot, show
 

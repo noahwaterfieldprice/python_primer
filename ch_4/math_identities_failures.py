@@ -1,3 +1,4 @@
+# Exercise 4.21
 import sys
 import random
 

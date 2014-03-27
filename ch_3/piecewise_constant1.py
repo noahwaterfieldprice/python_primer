@@ -1,3 +1,4 @@
+# Exercise 3.27
 def piecewise(x, data):
     for i in range(len(data) - 1):
         if data[i][1] <= x < data[i + 1][1]:

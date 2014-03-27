@@ -1,3 +1,4 @@
+# Exercise 3.30
 def C(x, n):
     term = 1
     s = term

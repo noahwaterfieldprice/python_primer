@@ -1,3 +1,4 @@
+# Exercise 4.26
 from math import exp
 import sys
 

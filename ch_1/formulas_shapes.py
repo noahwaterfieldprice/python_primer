@@ -1,3 +1,4 @@
+# Exercise 1.8
 from math import pi
 
 h = 5.0  # height

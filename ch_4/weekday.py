@@ -1,3 +1,4 @@
+# Exercise 4.12
 import sys
 import datetime
 

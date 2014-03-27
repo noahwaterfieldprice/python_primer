@@ -1,3 +1,4 @@
+# Exercise 5.9
 import numpy as np
 from scitools.std import plot
 

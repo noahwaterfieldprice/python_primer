@@ -1,3 +1,4 @@
+# Exercise 4.25
 from binomial_distribution import binomial
 
 print 'What is the probability of gettinger two heads when \

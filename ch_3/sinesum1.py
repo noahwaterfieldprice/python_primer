@@ -1,3 +1,4 @@
+# Exercise 3.13
 from math import sin, pi
 
 

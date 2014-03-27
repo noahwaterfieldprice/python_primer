@@ -1,3 +1,4 @@
+# Exercise 1.6
 interest_rate = 5.0  # in percent
 years = 3
 initial_amount = 1000

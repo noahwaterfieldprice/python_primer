@@ -1,3 +1,6 @@
+# Section 3.3.1 - DNA counting
+
+
 def count_v1(dna, base):
     dna = list(dna)  # convert string to list of letters
     i = 0  # counter

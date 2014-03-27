@@ -1,3 +1,4 @@
+# Exercise 3.35
 def count_substr(dna, substr):
     i = 0
     for p in xrange(len(dna)):

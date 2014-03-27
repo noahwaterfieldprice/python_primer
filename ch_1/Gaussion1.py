@@ -1,4 +1,6 @@
+# Exercise 1.10
 from math import pi, exp, sqrt
+
 m = 0
 s = 2.0
 x = 1.0

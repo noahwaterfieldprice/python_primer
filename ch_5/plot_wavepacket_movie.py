@@ -1,3 +1,4 @@
+# Exercise 5.22
 import numpy as np
 from scitools.std import plot, movie
 import glob

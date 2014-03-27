@@ -1,3 +1,4 @@
+# Exercise 2.3
 n = 12
 i = 0
 while i < int(round(n / 2.)):

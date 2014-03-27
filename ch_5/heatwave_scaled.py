@@ -1,3 +1,4 @@
+# Example 5.8.2 - Animating a Function (Scaled)
 from scitools.std import linspace, exp, cos, pi, movie, plot
 import sys
 

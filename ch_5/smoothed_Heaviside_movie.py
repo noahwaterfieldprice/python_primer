@@ -1,3 +1,4 @@
+# Exercise 5.23
 import numpy as np
 from scitools.std import pi, sin, plot, movie
 import glob

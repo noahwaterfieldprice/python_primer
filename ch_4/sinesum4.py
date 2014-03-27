@@ -1,3 +1,4 @@
+# Exercise 4.20
 from math import sin, pi
 from sinesum2 import table
 import argparse

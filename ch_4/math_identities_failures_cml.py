@@ -1,3 +1,4 @@
+# Exercise 4.22
 from math import *
 import sys
 import random

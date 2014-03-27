@@ -1,3 +1,5 @@
+# Example 4.6.2 - Bisection Root Finding (CML Implementation)
+
 import sys
 usage = '%s f-formula a b [epsilon]' % sys.argv[0]
 try:

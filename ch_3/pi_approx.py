@@ -1,3 +1,4 @@
+# Exercise 3.11
 from math import sin, cos, pi, sqrt
 
 

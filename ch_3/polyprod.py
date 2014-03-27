@@ -1,3 +1,4 @@
+# Exercise 3.18
 roots = [-1, 1, 2]
 
 

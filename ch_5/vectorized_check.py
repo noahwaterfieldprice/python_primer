@@ -1,3 +1,4 @@
+# Exercise 5.5
 from numpy import exp, array
 
 v = array([2, 3, -1])

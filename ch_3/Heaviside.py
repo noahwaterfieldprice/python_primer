@@ -1,3 +1,4 @@
+# Exercise 3.24
 def heaviside(x):
     if x < 0:
         return 0

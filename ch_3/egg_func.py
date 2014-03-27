@@ -1,3 +1,4 @@
+# Exercise 3.15
 from math import log, pi
 
 

@@ -1,3 +1,4 @@
+# Exercise 3.3
 def roots(a, b, c):
     from cmath import sqrt
     q = sqrt(b * b - 4 * a * c)

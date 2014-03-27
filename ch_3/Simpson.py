@@ -1,3 +1,6 @@
+# Example 3.4.2 - Numerical Integration
+
+
 def Simpson(f, a, b, n=500):
     """
     Return the approximation of the integral of f

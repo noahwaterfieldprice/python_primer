@@ -1,3 +1,4 @@
+# Exercise 2.25
 import time
 
 t0 = time.time()

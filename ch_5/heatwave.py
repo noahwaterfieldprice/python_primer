@@ -1,3 +1,5 @@
+# Example 5.8.2 - Animating a Function
+
 from scitools.std import *
 
 

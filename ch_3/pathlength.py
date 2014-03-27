@@ -1,3 +1,4 @@
+# Exercise 3.10
 from math import sqrt
 
 

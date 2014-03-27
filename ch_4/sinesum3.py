@@ -1,3 +1,4 @@
+# Exercise 4.19
 from math import sin, pi
 import sys
 from sinesum2 import S, f, table

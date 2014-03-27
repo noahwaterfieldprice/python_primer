@@ -1,3 +1,4 @@
+# Exercise 5.28
 import numpy as np
 import matplotlib.pyplot as plt
 from scitools.std import movie

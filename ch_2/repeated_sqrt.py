@@ -1,3 +1,4 @@
+# Exercise 2.22
 from math import sqrt
 for n in range(1, 60):
     r = 2.0

@@ -1,3 +1,4 @@
+# Exercise 1.9b
 v0 = 3  # m/s
 t = 1  # s
 a = 2  # m/s

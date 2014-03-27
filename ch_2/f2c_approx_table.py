@@ -1,3 +1,4 @@
+# Exercise 2.2
 print '------------------------'     					# table heading
 F = 0                        					# start value for F
 dC = 10                         				# increment of F in loop

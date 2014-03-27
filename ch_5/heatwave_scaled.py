@@ -1,4 +1,5 @@
-from scitools.std import *
+from scitools.std import linspace, exp, cos, pi, movie, plot
+import sys
 
 
 def animate(tmax, dt, x, function, ymin, ymax, t0=0,

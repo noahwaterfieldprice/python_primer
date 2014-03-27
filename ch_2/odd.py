@@ -1,8 +1,8 @@
 n = 12
 i = 0
-while i < int(round(n/2.)):
-	print 2*i + 1,
-	i += 1
+while i < int(round(n / 2.)):
+    print 2 * i + 1,
+    i += 1
 
 """
 Sample run:

@@ -12,7 +12,8 @@ except ValueError:
 
 
 def y(x, y0, theta, v0):
-    return x * np.tan(theta) - 1. / (2 * v0 ** 2) * g * x ** 2 / (np.cos(theta) ** 2) + y0
+    return x * np.tan(theta) - 1. / (2 * v0 ** 2) * g * x ** 2 / \
+        (np.cos(theta) ** 2) + y0
 
 vh = v0 * np.cos(theta)
 vv = v0 * np.sin(theta)

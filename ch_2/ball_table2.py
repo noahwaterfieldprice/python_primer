@@ -1,14 +1,14 @@
 v0 = 10
-g = 9.81 
+g = 9.81
 n = 81
-dt = 2*v0/g/(n - 1)
+dt = 2 * v0 / g / (n - 1)
 
-t = [i*dt for i in range(0,n)]
-y = [v0*t[i] - 0.5*g*t[i]**2 for i in range(0,n)]
+t = [i * dt for i in range(0, n)]
+y = [v0 * t[i] - 0.5 * g * t[i] ** 2 for i in range(0, n)]
 
 print '%6s %6s' % ('t', 'y')
-for tval, yval in zip(t,y):
-	print '%6.3f %6.3f' % (tval, yval)
+for tval, yval in zip(t, y):
+    print '%6.3f %6.3f' % (tval, yval)
 """
 Sample run:
 python ball_table2.py
@@ -23,4 +23,3 @@ python ball_table2.py
  2.013  0.252
 
 """
-	

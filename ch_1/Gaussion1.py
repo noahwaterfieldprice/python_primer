@@ -3,7 +3,7 @@ m = 0
 s = 2.0
 x = 1.0
 
-f = 1/sqrt(2*pi)*exp(-0.5*((x-m)/s)**2)
+f = 1 / sqrt(2 * pi) * exp(-0.5 * ((x - m) / s) ** 2)
 print f
 
 """

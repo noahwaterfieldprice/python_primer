@@ -7,3 +7,9 @@ def f(x):
 
 root, iter = bisection(f, -2, 2, 1E-6)
 print root, iter
+
+"""
+Sample run:
+python x_eq_sinx.py
+-9.53674316406e-07 22
+"""

@@ -1,6 +1,5 @@
 import numpy as np
-from scitools.std import sqrt, pi, exp, linspace, plot, movie
-import time
+from scitools.std import plot, movie
 import glob
 import os
 

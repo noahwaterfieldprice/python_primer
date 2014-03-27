@@ -1,16 +1,18 @@
 from math import cos, sin, pi
 
+
 def kinematics(x, y, t, dt=1E-6):
-	v = (x(t+dt) - x(t-dt))/(2*dt), (y(t+dt) - y(t-dt))/(2*dt)
-	a = (x(t+dt) - 2*x(t) + x(t - dt))/dt**2, (y(t+dt) - 2*y(t) + y(t - dt))/dt**2
-	r = x(t), y(t)
-	return r, v, a
+    v = (x(t + dt) - x(t - dt)) / (2 * dt), (y(t + dt) - y(t - dt)) / (2 * dt)
+    a = (x(t + dt) - 2 * x(t) + x(t - dt)) / \
+        dt ** 2, (y(t + dt) - 2 * y(t) + y(t - dt)) / dt ** 2
+    r = x(t), y(t)
+    return r, v, a
 
 t = 1
 R = 1
-w = 2*pi
-x = lambda t: R*w*cos(w*t)
-y = lambda t: R*sin(w*t)
+w = 2 * pi
+x = lambda t: R * w * cos(w * t)
+y = lambda t: R * sin(w * t)
 
 print kinematics(x, y, t, dt=1E-5)
 

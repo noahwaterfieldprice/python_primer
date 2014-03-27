@@ -1,5 +1,5 @@
 from math import sin, pi
-from sinesum2 import S, f, table
+from sinesum2 import table
 import argparse
 parser = argparse.ArgumentParser()
 

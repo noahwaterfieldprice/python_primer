@@ -1,12 +1,12 @@
 print '------------------------'     					# table heading
 F = 0                        					# start value for F
 dC = 10                         				# increment of F in loop
-print '%6s %8s %8s' % ('F', 'C', '~C')	# column headers
-while F <= 100:           
-    C = (5./9)*(F - 32)         	
-    C_approx = 0.5*(F - 30)      	
-    print '%6.2f %8.2f %8.2f' % (F, C, C_approx)  	
-    F = F + dC                 		
+print '%6s %8s %8s' % ('F', 'C', '~C')  # column headers
+while F <= 100:
+    C = (5. / 9) * (F - 32)
+    C_approx = 0.5 * (F - 30)
+    print '%6.2f %8.2f %8.2f' % (F, C, C_approx)
+    F = F + dC
 print '------------------------'     			# end of table line (after loop)
 
 """
@@ -27,4 +27,3 @@ python f2c_approx_table.py
 100.00    37.78    35.00
 ------------------------
 """
-	

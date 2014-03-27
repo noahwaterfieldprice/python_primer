@@ -1,35 +1,38 @@
 def L(x, n):
-    term = x/(1.+x)
+    term = x / (1. + x)
     s = term
-    for i in range(2, n+1):
-        term *= (i-1.)/i*x/(1.+x) # recursive relation between ci and c(i-1)
+    for i in range(2, n + 1):
+        # recursive relation between ci and c(i-1)
+        term *= (i - 1.) / i * x / (1. + x)
         s += term
     value_of_sum = s
-    first_neglected_term = term*n/(n+1.)*x/(1.+x)
+    first_neglected_term = term * n / (n + 1.) * x / (1. + x)
     from math import log
-    exact_error = log(1+x) - value_of_sum
+    exact_error = log(1 + x) - value_of_sum
     return value_of_sum, first_neglected_term, exact_error
 
 
 def table(x):
     from math import log
-    print '\nx=%g, ln(1+x)=%g' % (x, log(1+x))
+    print '\nx=%g, ln(1+x)=%g' % (x, log(1 + x))
     for n in [1, 2, 10, 100, 500]:
         value, next, error = L(x, n)
         print 'n=%-4d %-10g  (next term: %8.2e  '\
               'error: %8.2e)' % (n, value, next, error)
-    
+
 table(10)
 table(100)
 table(1000)
 
+
 def L2(x, epsilon=1.0E-6):
-    term = x/(1.+x)
+    term = x / (1. + x)
     s = term
     i = 1
     while abs(term) > epsilon:
         i += 1
-        term *= (i-1.)/i*x/(1.+x) # recursive relation between ci and c(i-1)
+        # recursive relation between ci and c(i-1)
+        term *= (i - 1.) / i * x / (1. + x)
         s += term
     return s, i
 
@@ -37,9 +40,9 @@ print '\n\n'
 from math import log
 x = 10
 for k in range(4, 14, 2):
-    epsilon = 10**(-k)
+    epsilon = 10 ** (-k)
     approx, n = L2(x, epsilon=epsilon)
-    exact = log(1+x)
+    exact = log(1 + x)
     exact_error = exact - approx
     print 'epsilon: %5.0e, exact error: %8.2e, n=%d' % \
           (epsilon, exact_error, n)
@@ -76,4 +79,3 @@ epsilon: 1e-06, exact error: 9.02e-06, n=97
 epsilon: 1e-08, exact error: 8.70e-08, n=142
 epsilon: 1e-10, exact error: 9.20e-10, n=187
 """
-	

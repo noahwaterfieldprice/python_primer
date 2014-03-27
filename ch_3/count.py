@@ -1,17 +1,18 @@
 def count_v1(dna, base):
-	dna  = list(dna) # convert string to list of letters
-	i = 0 # counter
-	for c in dna:
-		if c == base:
-			i +=1
-	return i
+    dna = list(dna)  # convert string to list of letters
+    i = 0  # counter
+    for c in dna:
+        if c == base:
+            i += 1
+    return i
+
 
 def count_v2(dna, base):
-	i = 0 # counter
-	for c in dna:
-		if c == base:
-			i += 1
-	return i
+    i = 0  # counter
+    for c in dna:
+        if c == base:
+            i += 1
+    return i
 
 dna = 'ATGCGGACCTAT'
 base = 'C'
@@ -23,80 +24,110 @@ print '%s appears %d times in %s' % (base, n, dna)
 # or new format sring syntax
 print '{base} appears {n} times in {dna}'.format(base=base, n=n, dna=dna)
 
+
 def count_v3(dna, base):
-	i = 0 # counter
-	for j in range(len(dna)):
-		if dna[j] == base:
-			i += 1
-	return i
+    i = 0  # counter
+    for j in range(len(dna)):
+        if dna[j] == base:
+            i += 1
+    return i
+
 
 def count_v4(dna, base):
-	i = 0 # counter
-	j = 0 # string index
-	while j < len(dna):
-		if dna[j] == base:
-			i += 1
-		j += 1
-	return i
+    i = 0  # counter
+    j = 0  # string index
+    while j < len(dna):
+        if dna[j] == base:
+            i += 1
+        j += 1
+    return i
+
 
 def count_v5(dna, base):
-	m = [] # matches for base in dna: m[i]=True if dna[i]==base
-	for c in dna:
-		if c == base:
-			m.append(True)
-		else:
-			m.append(False)
-	return sum(m)
+    m = []  # matches for base in dna: m[i]=True if dna[i]==base
+    for c in dna:
+        if c == base:
+            m.append(True)
+        else:
+            m.append(False)
+    return sum(m)
+
 
 def count_v6(dna, base):
-	m = [] # matches for base in dna: m[i]=True if dna[i]==base
-	for c in dna:
-		m.append(True if c == base else False)
-	return sum(m)
+    m = []  # matches for base in dna: m[i]=True if dna[i]==base
+    for c in dna:
+        m.append(True if c == base else False)
+    return sum(m)
+
 
 def count_v7(dna, base):
-	m = [] # matches for base in dna: m[i]=True if dna[i]==base
-	for c in dna:
-		m.append(c == base)
-	return sum(m)
+    m = []  # matches for base in dna: m[i]=True if dna[i]==base
+    for c in dna:
+        m.append(c == base)
+    return sum(m)
+
 
 def count_v8(dna, base):
-	m = [c == base for c in dna]
-	return sum(m)
+    m = [c == base for c in dna]
+    return sum(m)
+
 
 def count_v9(dna, base):
-	return sum([c == base for c in dna])
+    return sum([c == base for c in dna])
+
 
 def count_v10(dna, base):
-	return sum(c == base for c in dna)
+    return sum(c == base for c in dna)
+
 
 def count_v11(dna, base):
-	return len([i for i in range(len(dna)) if dna[i] == base])
+    return len([i for i in range(len(dna)) if dna[i] == base])
+
 
 def count_v12(dna, base):
-	return dna.count(base)
+    return dna.count(base)
 
 import random
 
+
 def generate_string(N, alphabet='ACGT'):
-	return ''.join([random.choice(alphabet) for i in xrange(N)])
+    return ''.join([random.choice(alphabet) for i in xrange(N)])
 
 dna = generate_string(600000)
 #dna = generate_string(6000000)
 
-import time 
+import time
 functions = [count_v1, count_v2, count_v3, count_v4,
              count_v5, count_v6, count_v7, count_v8,
              count_v9, count_v10, count_v11, count_v12]
-timings = [] # timings[i] holds CPU time for functions[i]
+timings = []  # timings[i] holds CPU time for functions[i]
 
 for function in functions:
-	t0 = time.clock()
-	function(dna, 'A')
-	t1 = time.clock()
-	cpu_time = t1 - t0
-	timings.append(cpu_time)
+    t0 = time.clock()
+    function(dna, 'A')
+    t1 = time.clock()
+    cpu_time = t1 - t0
+    timings.append(cpu_time)
 
 for cpu_time, function in zip(timings, functions):
-	print '{f:<9s}: {cpu:.5f} s'.format(
-		f=function.func_name, cpu = cpu_time)
+    print '{f:<9s}: {cpu:.5f} s'.format(
+        f=function.func_name, cpu=cpu_time)
+
+"""
+Sample run:
+python count.py
+C appears 3 times in ATGCGGACCTAT
+C appears 3 times in ATGCGGACCTAT
+count_v1 : 0.04484 s
+count_v2 : 0.03922 s
+count_v3 : 0.06442 s
+count_v4 : 0.11396 s
+count_v5 : 0.09895 s
+count_v6 : 0.10361 s
+count_v7 : 0.08979 s
+count_v8 : 0.05318 s
+count_v9 : 0.05307 s
+count_v10: 0.05384 s
+count_v11: 0.06139 s
+count_v12: 0.00142 s
+"""

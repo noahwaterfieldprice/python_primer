@@ -1,4 +1,4 @@
-from Lagrange_poly2 import *
+from Lagrange_poly2 import graph, plt
 
 
 def f(x):

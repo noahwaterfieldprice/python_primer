@@ -1,12 +1,12 @@
 def Sieve_of_Eratosthenes(N):
-	numbers = range(2,N+1)
-	primes = []
-	for p in xrange(len(numbers)):
-		if numbers[p] != 0:
-			primes.append(numbers[p])
-			for i in xrange(numbers[p],N+1,numbers[p]):
-				numbers[i-2] = 0
-	return primes
+    numbers = range(2, N + 1)
+    primes = []
+    for p in xrange(len(numbers)):
+        if numbers[p] != 0:
+            primes.append(numbers[p])
+            for i in xrange(numbers[p], N + 1, numbers[p]):
+                numbers[i - 2] = 0
+    return primes
 
 primes100 = Sieve_of_Eratosthenes(100)
 print primes100

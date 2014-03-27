@@ -1,13 +1,13 @@
 v0 = 1
-g = 9.81 
+g = 9.81
 n = 11
-dt = 2*v0/g/(n - 1)
+dt = 2 * v0 / g / (n - 1)
 
 print '%6s %6s' % ('t', 'y')
-for i in range(0,n):
-	t = i*dt
-	y = v0*t - 0.5*g*t**2 
-	print '%6.3f %6.3f' % (t, y)
+for i in range(0, n):
+    t = i * dt
+    y = v0 * t - 0.5 * g * t ** 2
+    print '%6.3f %6.3f' % (t, y)
 
 """
 Sample run:
@@ -25,4 +25,3 @@ python ball_table1.py
  0.183  0.018
  0.204  0.000
 """
-	

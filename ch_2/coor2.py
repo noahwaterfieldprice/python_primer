@@ -1,7 +1,7 @@
 h = 0.01
-x = [1 + i*h for i in range(0,101)]
+x = [1 + i * h for i in range(0, 101)]
 for xval in x:
-	print '%3.2f' % xval,
+    print '%3.2f' % xval,
 
 """
 Sample run:

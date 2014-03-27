@@ -4,7 +4,7 @@ import random
 _filename = sys.argv[0]
 _usage = """
 Usage: python %s exp(a+b) exp(a)*exp(b) -100 100 500
-Takes two equivalent expressions involving a and b and 
+Takes two equivalent expressions involving a and b and
 tests their equivalence. Returning the percentage of
 failures.
 """ % _filename
@@ -24,9 +24,9 @@ def equal(expr1, expr2, A, B, n=500):
 if __name__ == '__main__':
     if len(sys.argv) < 5:
         print _usage
-        raise IndexError('Two expressions involving a and b and range limits must '
-                         'be given on the command-line. Number of repetitions '
-                         'may also be given.')
+        raise IndexError('Two expressions involving a and b and range limits '
+                         'must be given on the command-line. Number '
+                         'of repetitions may also be given.')
     expr1 = sys.argv[1]
     expr2 = sys.argv[2]
     A = float(sys.argv[3])

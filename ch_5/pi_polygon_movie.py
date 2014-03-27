@@ -1,8 +1,6 @@
-from scitools.std import sqrt, pi, cos, sin, linspace, plot, movie
-import time
+from scitools.std import sqrt, pi, cos, sin, plot, movie
 import glob
 import os
-import operator
 
 
 def pathlength(x, y):

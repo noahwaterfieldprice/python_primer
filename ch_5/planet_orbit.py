@@ -8,7 +8,8 @@ def orbit_path(t, a, b, omega):
 
 
 def inst_vel(t, a, b, omega):
-    return omega * np.sqrt((a * np.sin(omega * t)) ** 2 + (b * np.cos(omega * t)) ** 2)
+    return omega * np.sqrt((a * np.sin(omega * t)) ** 2 +
+                           (b * np.cos(omega * t)) ** 2)
 
 
 def animate_orbit(a, b, omega, n):

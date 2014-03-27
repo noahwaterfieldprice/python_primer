@@ -1,12 +1,12 @@
 n = 12
 i = 0
-odd_nos =[]
-while i < int(round(n/2.)):
-	odd_nos.append(2*i + 1)
-	i += 1
+odd_nos = []
+while i < int(round(n / 2.)):
+    odd_nos.append(2 * i + 1)
+    i += 1
 
 for no in odd_nos:
-	print no,
+    print no,
 
 """
 Sample run:

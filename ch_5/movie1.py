@@ -1,5 +1,4 @@
 from scitools.std import sqrt, pi, exp, linspace, plot, movie
-import time
 import glob
 import os
 

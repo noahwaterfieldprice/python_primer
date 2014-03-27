@@ -1,11 +1,10 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 
 def L_k(x, k, xp, yp):
     ans = 1
     # if x > xp[-1]:
-    #	raise ValueError('x out of range of function domain')
+    #   raise ValueError('x out of range of function domain')
     for i in range(len(xp)):
         if i != k:
             ans *= (x - xp[i]) / (xp[k] - xp[i])
@@ -15,7 +14,7 @@ def L_k(x, k, xp, yp):
 def p_L(x, xp, yp):
     ans = 0
     # if x > xp[-1]:
-    #	raise ValueError('x out of range of function domain')
+    #   raise ValueError('x out of range of function domain')
     for k in range(len(yp)):
         ans += yp[k] * L_k(x, k, xp, yp)
     return ans

@@ -19,7 +19,7 @@ f = StringFunction(f_formula)
 from bisection import bisection
 
 root, iter = bisection(f, a, b, epsilon)
-if root == None:
+if root is None:
     print 'The interval [%g, %g] does not contain a root' % (a, b)
     sys.exit(1)
 print 'Fount root %g\nof %s = 0 is [%g, %g] in %d iterations' % \

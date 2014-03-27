@@ -1,6 +1,5 @@
 import sys
 from math import *
-from scitools.StringFunction import StringFunction
 
 try:
     i1 = eval(sys.argv[1])

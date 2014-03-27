@@ -1,5 +1,4 @@
 from numpy import cos, sin, exp, array, zeros, meshgrid
-from matplotlib.pyplot import plot, show
 
 x = array([0, 2])
 t = array([1, 1.5])

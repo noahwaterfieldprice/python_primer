@@ -27,9 +27,21 @@ def table(n_values, alpha_values, T):
     for n in n_values:
         print 'n = %d' % n
         print '  Function t=%.2f*pi t=%.2f*pi t=%.2f*pi' % (0.01, 0.25, 0.49)
-        print '%10s %.7f %.7f %.7f' % ('f(t, T)', f(t_list[0], T), f(t_list[1], T), f(t_list[2], T))
-        print '%10s %.7f %.7f %.7f' % ('S(t, n, T)', S(t_list[0], n, T), S(t_list[1], n, T), S(t_list[2], n, T))
-        print '%10s %.7f %.7f %.7f' % ('Error', abs(S(t_list[0], n, T) - f(t_list[0], T)), abs(S(t_list[0], n, T) - f(t_list[0], T)), abs(S(t_list[0], n, T) - f(t_list[0], T)))
+        print '%10s %.7f %.7f %.7f' % ('f(t, T)',
+                                       f(t_list[0], T),
+                                       f(t_list[1], T),
+                                       f(t_list[2], T))
+        print '%10s %.7f %.7f %.7f' % ('S(t, n, T)',
+                                       S(t_list[0], n, T),
+                                       S(t_list[1], n, T),
+                                       S(t_list[2], n, T))
+        print '%10s %.7f %.7f %.7f' % ('Error',
+                                       abs(S(t_list[0], n, T)
+                                           - f(t_list[0], T)),
+                                       abs(S(t_list[0], n, T)
+                                           - f(t_list[0], T)),
+                                       abs(S(t_list[0], n, T) -
+                                           f(t_list[0], T)))
         print ''
 
 if __name__ == '__main__':

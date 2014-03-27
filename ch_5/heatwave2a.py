@@ -1,4 +1,4 @@
-from scitools.std import *
+from scitools.std import linspace, exp, sqrt, cos, log, pi, movie, plot
 
 
 def animate(tmax, dt, x, function, ymin, ymax, t0=0,
@@ -22,25 +22,25 @@ def T(z, t):
     return T0 + A1 * exp(-a1 * z) * cos(omega1 * t - a1 * z) + \
         A2 * exp(-a2 * z) * cos(omega2 * t - a2 * z)
 
-k = 1E-6    		# thermal diffusivity (in m**2/s)
+k = 1E-6            # thermal diffusivity (in m**2/s)
 
-A1 = 15      		# amplitude of the daily temperature variations (in C)
-P1 = 24 * 60 * 60. 		# oscillation period of 24 h (in seconds)
+A1 = 15             # amplitude of the daily temperature variations (in C)
+P1 = 24 * 60 * 60.      # oscillation period of 24 h (in seconds)
 # angular frequency of daily temperature variations (in rad/s)
 omega1 = 2 * pi / P1
 a1 = sqrt(omega1 / (2 * k))
 
-A2 = 7				# amplitude of yearly temperature variations (in C)
-P2 = 24 * 60 * 60 * 365. 	# oscillation period of 1 yr (in seconds)
+A2 = 7              # amplitude of yearly temperature variations (in C)
+P2 = 24 * 60 * 60 * 365.    # oscillation period of 1 yr (in seconds)
 # angular frequency of yearly temperature variations (in rad/s)
 omega2 = 2 * pi / P2
 a2 = sqrt(omega2 / (2 * k))
 
-dt = P2 / 30   			# time lag: 0.1 yr
-tmax = 3 * P2   			# 3 year simulation
-T0 = 10      			# mean surface temperature in Celsius
-D = -(1 / a1) * log(0.001) 	# max depth
-n = 501      			# no of points in the z direction
+dt = P2 / 30            # time lag: 0.1 yr
+tmax = 3 * P2               # 3 year simulation
+T0 = 10                 # mean surface temperature in Celsius
+D = -(1 / a1) * log(0.001)  # max depth
+n = 501                 # no of points in the z direction
 
 
 z = linspace(0, D, n)

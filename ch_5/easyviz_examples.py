@@ -1,4 +1,5 @@
-from scitools.std import *
+from scitools.std import linspace, exp, figure, plot, xlabel, ylabel, \
+    legend, axis, title, savefig, subplot, hold
 
 
 def f(t):

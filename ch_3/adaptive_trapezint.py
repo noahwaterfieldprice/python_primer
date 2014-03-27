@@ -31,7 +31,8 @@ def verify(f, a, b, n):
     exact = quad(f, a, b)[0]
     approx = adaptive_trapezint(f, a, b)
     error = abs(exact - approx)
-    print 'The exact integral of %s between %.5f and %.5f is %.5f. The approximate answer is %.5f giving an error of %.5f' \
+    print 'The exact integral of %s between %.5f and %.5f is %.5f.\
+     The approximate answer is %.5f giving an error of %.5f' \
         % (f.__name__, a, b, exact, approx, error)
 
 for f in functions:

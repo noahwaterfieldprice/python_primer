@@ -1,0 +1,7 @@
+sin(x) is a function of x
+sin(a*y) is a function of y with parameter a=2
+sin(a*x-phi) is a function of x with parameter a=3, phi=-pi
+exp(-a*x)*cos(w*t) is a function of t with parameter a=1, w=pi, x=2
+b*ln(x)*tan(y/a) is a function of x, y with parameter a=3, b=0.5
+2*cos(p*x)*sin(q*y) is a function of x, y with parameter p=10, q=17
+sin(a*pi*x/8)*(2*pi)**-0.5*1/s*exp(-0.5*((t-m)/s)**2) is a function of x, t with parameter a=0.5, s=10, m=0.2

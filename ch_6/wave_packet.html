@@ -1,0 +1,38 @@
+<html>
+<body bgcolor="#FFFAFA" style="margin: 20px 200px">
+<h1 style="color: #053061; font: 60pt Helvetica Neue; font-weight:100; text-align:center">Wavepacket Program Report</h1>
+<p style="color: #333; font: 20pt Helvetica Neue; font-weight:100;" > This report details the output of a wave_packet plotting function: wave_packet(x, t).The function is demonstrated in the following example: </p >
+<pre style="color: #333; font-size: 12pt; margin-left: 100px">
+1    import numpy as np
+ 
+2    import matplotlib.pyplot as plt
+ 
+3    
+ 
+4    
+ 
+5    def wave_packet(x, t):
+ 
+6        return np.exp(-(x - 3 * t) ** 2) * np.sin(3 * np.pi * (x - t))
+ 
+7    
+ 
+8    xlist = np.linspace(-4, 4, 1001)
+ 
+9    ylist = wave_packet(xlist, 0)
+ 
+10   
+ 
+11   plt.plot(xlist, ylist)
+ 
+12   plt.show()
+ 
+</pre>
+<hr><h2 style="color: #053061; font: 50pt Helvetica Neue; font-weight:100; text-align:center">Example plots</h2>
+<div align="middle" style="margin-top: 20px"><img align="middle" src="wavepacket_report-t=-0.85.png"/></div>
+<div align="middle" style="margin-top: 20px"><img align="middle" src="wavepacket_report-t=0.00.png"/></div>
+<div align="middle" style="margin-top: 20px"><img align="middle" src="wavepacket_report-t=0.85.png"/></div>
+<h2 style="color: #053061; font: 50pt Helvetica Neue; font-weight:100; text-align:center">Animated Gif</h2>
+<hr><div align="middle" style="margin-top: 20px"><img align="middle" src="wavepacket_report.gif"/></div>
+</html>
+</body>

@@ -5,7 +5,7 @@ def heaviside1(x):
     elif x >= 0:
         return 1
 
-# need to step functions as conditions swap round when argument is -x
+# need two step functions as conditions swap round when argument is -x
 
 
 def heaviside2(x):

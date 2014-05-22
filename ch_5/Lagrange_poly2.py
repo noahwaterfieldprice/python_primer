@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 
 def L_k(x, k, xp, yp):
     ans = 1
-    # if x > xp[-1]:
-    #	raise ValueError('x out of range of function domain')
     for i in range(len(xp)):
         if i != k:
             ans *= (x - xp[i]) / (xp[k] - xp[i])
@@ -15,8 +13,6 @@ def L_k(x, k, xp, yp):
 
 def p_L(x, xp, yp):
     ans = 0
-    # if x > xp[-1]:
-    #	raise ValueError('x out of range of function domain')
     for k in range(len(yp)):
         ans += yp[k] * L_k(x, k, xp, yp)
     return ans
@@ -48,10 +44,6 @@ def graph(f, n, xmin, xmax, resolution=1001):
     ylist_fine = p_L(xlist_fine, xlist, ylist)
     plt.plot(xlist, ylist, 'ro')
     plt.plot(xlist_fine, ylist_fine)
-    #frange = ylist_fine.max() - ylist_fine.min()
-    #fdomain = xlist[-1] - [0]
-    #ax.set_ylim(ylist_fine.min() - frange/10., ylist_fine.max() + frange/10.)
-    #ax.set_xlim(xlist[0] - fdomain/10., xlist[-1] + fdomain/10.)
 
 
 def annotate_graph():
@@ -67,3 +59,14 @@ if __name__ == '__main__':
     graph(np.sin, 5, 0, np.pi)
     annotate_graph()
     plt.show()
+
+"""
+Sample run:
+python Lagrange_poly2.py
+         x      Exact     Approx   Difference
+  0.000000   0.000000   0.000000     0.000000
+  0.785398   0.707107   0.707107     0.000000
+  1.570796   1.000000   1.000000     0.000000
+  2.356194   0.707107   0.707107     0.000000
+  3.141593   0.000000   0.000000     0.000000
+"""

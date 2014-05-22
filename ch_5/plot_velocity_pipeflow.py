@@ -10,7 +10,7 @@ mu0 = 0.02
 
 def vel_prof(r, n):
     return (beta / 2 * mu0) ** (1. / n) * float(n) / (n + 1) * \
-        (R ** (1 + 1. / n) - r ** (1 + 1. / n))
+        ((R ** (1 + 1. / n) - r ** (1 + 1. / n)))
 
 r = np.linspace(0, R, 100)
 counter = 0

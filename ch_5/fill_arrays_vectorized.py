@@ -1,6 +1,6 @@
 # Exercise 5.3
 from numpy import sqrt, exp, pi, linspace
-from matplotlib.pyplot import plot, show
+from matplotlib.pyplot import plot, show, xlabel, ylabel
 
 
 def h(x):
@@ -10,4 +10,6 @@ xlist = linspace(-4, 4, 41)
 hlist = h(xlist)
 
 plot(xlist, hlist)
+xlabel('x')
+ylabel('h')
 show()

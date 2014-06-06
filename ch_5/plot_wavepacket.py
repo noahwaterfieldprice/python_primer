@@ -10,4 +10,6 @@ xlist = np.linspace(-4, 4, 1001)
 ylist = wave_packet(xlist, 0)
 
 plt.plot(xlist, ylist)
+plt.xlabel('x')
+plt.ylabel('amplitude')
 plt.show()

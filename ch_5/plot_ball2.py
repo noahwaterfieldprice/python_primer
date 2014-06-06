@@ -24,5 +24,5 @@ velocities = np.array(sys.argv[1:], dtype=np.float)
 
 for x in xrange(len(velocities)):
     plot_trajectory(velocities[x])
-
+plt.legend(['v0 = %g' % v0 for v0 in velocities])
 plt.show()

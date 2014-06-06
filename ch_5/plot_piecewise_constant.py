@@ -15,6 +15,8 @@ def piecewise(x, data):
 def plot_piecewise(data, xmax):
     x = np.linspace(data[0][1], xmax, 1001)
     plt.plot(x, piecewise(x, data))
+    plt.xlabel('x')
+    plt.ylabel('piecewise(x)')
     plt.show()
 
 # need last pair to define final x interval

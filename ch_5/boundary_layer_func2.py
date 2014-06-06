@@ -23,6 +23,8 @@ x = np.linspace(0, 1, 1001)
 for mu in [1, 0.01, 0.001]:
     a, b, vel = v(x, mu, np.exp)
     plt.plot(x, vel)
+    plt.xlabel('x')
+    plt.ylabel('velocity')
     plt.show()
 
 

@@ -1,14 +1,18 @@
+# Exercise 7.26
 import numpy as np
 import matplotlib.pyplot as plt
+from scitools.std import wrap2callable
 
 
 class InverseFunction:
 
     def __init__(self, f, x):
+        self.x = x
         self.values = self.compute_inverse(f, x)
 
     def __call__(self, x):
-        pass
+        q = wrap2callable((self.x, self.values))
+        return q(x)
 
     @staticmethod
     def Newton(f, x, dfdx, epsilon=1.0E-7, N=100):
@@ -69,3 +73,11 @@ plt.plot(x, f_inv.values)
 plt.title('InverseFunction')
 plt.legend(['Original', 'Inverse'], loc=2)
 plt.show()
+
+print f_inv(1.001), f_inv(1.593), f_inv(2.999)
+
+"""
+Sample run:
+python InverseFunction.py
+2.72102747253 4.918705514 20.0656505185
+"""

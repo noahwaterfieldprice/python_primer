@@ -10,3 +10,12 @@ def f(x):
 print f(v)[0] == f(v[0])
 print f(v)[1] == f(v[1])
 print f(v)[2] == f(v[2])
+
+"""
+Sample run:
+python vectorized_check.py
+True
+True
+True
+"""
+    

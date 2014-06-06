@@ -6,7 +6,7 @@ import sys
 g = 9.81
 params = np.array(sys.argv[1:], dtype=np.float)
 try:
-    v0, theta, y0 = params[0], params[1] * 180 / np.pi, params[2]
+    v0, theta, y0 = params[0], params[1] * np.pi / 180, params[2]
 except ValueError:
     print 'v0, theta and y0 must be provided on the command-line'
     sys.exit(1)

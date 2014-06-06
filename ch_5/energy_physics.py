@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 
-m = sys.argv[1]
-v0 = sys.argv[2]
+m = float(sys.argv[1])
+v0 = float(sys.argv[2])
 g = 9.81
 
 t = np.linspace(0, 2 * v0 / g, 501)

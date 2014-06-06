@@ -1,6 +1,6 @@
 # Exercise 5.1
 from numpy import sqrt, exp, pi
-from matplotlib.pyplot import plot, show
+from matplotlib.pyplot import plot, show, xlabel, ylabel
 
 
 def h(x):
@@ -13,4 +13,6 @@ xlist = [-4 + i * dx for i in range(n)]
 hlist = [h(x) for x in xlist]
 
 plot(xlist, hlist)
+xlabel('x')
+ylabel('h')
 show()

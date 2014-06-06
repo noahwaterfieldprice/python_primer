@@ -34,5 +34,5 @@ max_yval = y(np.linspace(0, 2 * vmax / g, 100), vmax).max()
 
 ax.set_xlim([0, 2 * velocities.max() / g])
 ax.set_ylim([0, max_yval + 0.1])
-
+plt.legend(['v0 = %g' % v0 for v0 in velocities])
 plt.show()

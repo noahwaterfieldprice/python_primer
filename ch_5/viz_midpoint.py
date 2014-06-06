@@ -22,6 +22,9 @@ def viz_rect(f, a, b, n, N):
                  color=colorset[-2], linestyle='--')
 
     plt.fill_between(x, f(x), data, color=colorset[1])
+    plt.xlabel('x')
+    plt.ylabel('f(x)')
+    plt.title('%g segments' % n)
     plt.show()
 
 

@@ -3,3 +3,5 @@ apospwp.sublime-project
 apospwp.sublime-workspace
 # Ignore examples/progams from book
 src/
+# Ignore compiled .pyc files
+ch_4/*.pyc

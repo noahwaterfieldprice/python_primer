@@ -1,4 +1,6 @@
 # Exercise 6.10
+# Author: Noah Waterfield Price
+
 def read_densities_v1(filename):
     infile = open(filename, 'r')
     densities = {}

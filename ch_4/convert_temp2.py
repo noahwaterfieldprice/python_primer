@@ -1,4 +1,6 @@
 # Exercise 4.17
+# Author: Noah Waterfield Price
+
 import sys
 _filename = sys.argv[0]
 _usage = """

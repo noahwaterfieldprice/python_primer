@@ -1,4 +1,6 @@
 # Exercise 7.7
+# Author: Noah Waterfield Price
+
 class Spring:
 
     def __init__(self, k):

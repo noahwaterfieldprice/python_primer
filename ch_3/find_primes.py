@@ -1,4 +1,6 @@
 # Exercise 3.33
+# Author: Noah Waterfield Price
+
 def Sieve_of_Eratosthenes(N):
     numbers = range(2, N + 1)
     primes = []

@@ -1,4 +1,6 @@
 # Exercise 8.25
+# Author: Noah Waterfield Price
+
 import numpy as np
 from scipy.misc import factorial as fact
 

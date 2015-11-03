@@ -1,4 +1,6 @@
 # Exercise 3.34
+# Author: Noah Waterfield Price
+
 def count_pairs(dna, pair):
     pair = tuple(pair)
     i = 0

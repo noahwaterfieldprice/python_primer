@@ -1,4 +1,5 @@
 # Exercise 9.7
+# Author: Noah Waterfield Price
 
 
 class VelocityProfile:

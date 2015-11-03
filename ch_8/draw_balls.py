@@ -1,4 +1,6 @@
 # Exercise 8.14
+# Author: Noah Waterfield Price
+
 from random import randint
 from math import sqrt
 

@@ -1,4 +1,6 @@
 # Exercise 7.10
+# Author: Noah Waterfield Price
+
 class Hello:
 
     def __call__(self, string):

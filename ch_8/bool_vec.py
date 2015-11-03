@@ -1,4 +1,6 @@
 # Exercise 8.16
+# Author: Noah Waterfield Price
+
 import numpy as np
 
 r = np.random.uniform(size=6)

@@ -1,4 +1,6 @@
 # Exercise 2.6
+# Author: Noah Waterfield Price
+
 v0 = 1
 g = 9.81
 n = 11

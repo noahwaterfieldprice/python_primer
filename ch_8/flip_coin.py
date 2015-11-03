@@ -1,4 +1,6 @@
 # Exercise 8.1
+# Author: Noah Waterfield Price
+
 from random import randint
 
 

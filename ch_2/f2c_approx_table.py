@@ -1,4 +1,6 @@
 # Exercise 2.2
+# Author: Noah Waterfield Price
+
 print '------------------------'     					# table heading
 F = 0                        					# start value for F
 dC = 10                         				# increment of F in loop

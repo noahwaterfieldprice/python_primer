@@ -1,4 +1,6 @@
 # Exercise 2.16
+# Author: Noah Waterfield Price
+
 q = [['a', 'b', 'c'], ['d', 'e', 'f'], ['g', 'h']]
 
 print q[0][0]  # a

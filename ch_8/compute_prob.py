@@ -1,4 +1,6 @@
 # Exercise 8.2
+# Author: Noah Waterfield Price
+
 from random import random
 
 

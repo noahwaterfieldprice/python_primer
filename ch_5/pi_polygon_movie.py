@@ -1,4 +1,6 @@
 # Exercise 5.26
+# Author: Noah Waterfield Price
+
 from scitools.std import sqrt, pi, cos, sin, plot, movie
 import glob
 import os

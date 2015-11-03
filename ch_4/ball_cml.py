@@ -1,4 +1,6 @@
 # Exercise 4.7
+# Author: Noah Waterfield Price
+
 import argparse
 g = 9.81
 

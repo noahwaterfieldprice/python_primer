@@ -1,4 +1,6 @@
 # Exercise 4.9
+# Author: Noah Waterfield Price
+
 import sys
 g = 9.81
 try:

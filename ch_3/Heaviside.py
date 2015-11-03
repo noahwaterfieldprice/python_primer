@@ -1,4 +1,6 @@
 # Exercise 3.24
+# Author: Noah Waterfield Price
+
 def heaviside(x):
     if x < 0:
         return 0

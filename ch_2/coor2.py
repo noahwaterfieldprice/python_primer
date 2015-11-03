@@ -1,4 +1,6 @@
 # Exercise 2.11
+# Author: Noah Waterfield Price
+
 h = 0.01
 x = [1 + i * h for i in range(0, 101)]
 for xval in x:

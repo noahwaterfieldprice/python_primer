@@ -1,4 +1,6 @@
 # Exercise 3.23
+# Author: Noah Waterfield Price
+
 def mymax(a):
     max_elem = a[0]
     for elem in a:

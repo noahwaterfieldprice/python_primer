@@ -1,4 +1,6 @@
 # Exercise 5.32
+# Author: Noah Waterfield Price
+
 from numpy import *
 import matplotlib.pyplot as plt
 import sys

@@ -1,4 +1,6 @@
 # Exercise 4.13
+# Author: Noah Waterfield Price
+
 from scitools.StringFunction import StringFunction
 from math import *
 

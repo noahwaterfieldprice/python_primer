@@ -1,4 +1,6 @@
 # Exercise 7.17
+# Author: Noah Waterfield Price
+
 class Sum:
 
     def __init__(self, f_k, M, N):

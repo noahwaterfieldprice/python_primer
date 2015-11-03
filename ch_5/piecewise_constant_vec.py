@@ -1,4 +1,6 @@
 # Exercise 5.37
+# Author: Noah Waterfield Price
+
 import numpy as np
 import operator
 

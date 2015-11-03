@@ -1,4 +1,6 @@
 # Exercise 2.7
+# Author: Noah Waterfield Price
+
 v0 = 10
 g = 9.81
 n = 81

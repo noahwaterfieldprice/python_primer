@@ -1,4 +1,6 @@
 # Exercise 7.13
+# Author: Noah Waterfield Price
+
 class Central:
 
     def __init__(self, f, h=1E-5):

@@ -1,4 +1,6 @@
 # Exercise 3.30
+# Author: Noah Waterfield Price
+
 def C(x, n):
     term = 1
     s = term

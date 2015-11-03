@@ -1,4 +1,6 @@
 # Exercise 3.15
+# Author: Noah Waterfield Price
+
 from math import log, pi
 
 

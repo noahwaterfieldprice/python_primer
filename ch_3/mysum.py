@@ -1,4 +1,6 @@
 # Exercise 3.4
+# Author: Noah Waterfield Price
+
 def mysum(L):
     s = 0
     for e in L:

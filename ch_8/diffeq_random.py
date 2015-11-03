@@ -1,4 +1,6 @@
 # Exercise 8.20
+# Author: Noah Waterfield Price
+
 from time import time
 from scitools.std import plot, compute_histogram
 

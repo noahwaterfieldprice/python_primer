@@ -1,4 +1,6 @@
 # Exercise 5.5
+# Author: Noah Waterfield Price
+
 from numpy import exp, array
 
 v = array([2, 3, -1])

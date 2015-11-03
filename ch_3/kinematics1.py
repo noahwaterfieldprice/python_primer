@@ -1,4 +1,6 @@
 # Exercise 3.20
+# Author: Noah Waterfield Price
+
 from math import exp
 
 

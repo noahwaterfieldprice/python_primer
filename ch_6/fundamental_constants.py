@@ -1,4 +1,6 @@
 # Exercise 6.8
+# Author: Noah Waterfield Price
+
 def load_constants(constantsfile):
     constants = {}
 

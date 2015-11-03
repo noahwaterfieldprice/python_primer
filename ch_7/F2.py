@@ -1,4 +1,6 @@
 # Exercise 7.11
+# Author: Noah Waterfield Price
+
 from math import sin, exp
 
 

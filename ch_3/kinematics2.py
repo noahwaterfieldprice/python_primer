@@ -1,4 +1,6 @@
 # Exercise 3.21
+# Author: Noah Waterfield Price
+
 from math import cos, sin, pi
 
 

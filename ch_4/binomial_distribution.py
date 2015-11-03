@@ -1,4 +1,6 @@
 # Exercise 4.24
+# Author: Noah Waterfield Price
+
 import sys
 
 

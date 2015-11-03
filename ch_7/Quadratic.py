@@ -1,4 +1,6 @@
 # Exercise 7.6
+# Author: Noah Waterfield Price
+
 from numpy import linspace
 from cmath import sqrt
 

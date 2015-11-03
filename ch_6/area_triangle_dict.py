@@ -1,4 +1,6 @@
 # Exercise 6.15
+# Author: Noah Waterfield Price
+
 def area(vert):
     A = 0.5 * abs(vert[2][0] * vert[3][1] - vert[3][0] * vert[2][1] -
                   vert[1][0] * vert[3][1] + vert[3][0] * vert[1][1] +

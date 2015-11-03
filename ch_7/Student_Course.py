@@ -1,4 +1,6 @@
 # Exercise 7.39
+# Author: Noah Waterfield Price
+
 
 
 class Course:

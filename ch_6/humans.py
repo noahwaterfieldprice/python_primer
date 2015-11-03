@@ -1,4 +1,6 @@
 # Exercise 6.14
+# Author: Noah Waterfield Price
+
 infile = open('human_evolution.txt', 'r')
 lines = infile.readlines()[3:10]
 humans = {}

@@ -1,4 +1,6 @@
 # Exercise 9.5
+# Author: Noah Waterfield Price
+
 from math import pi, sqrt
 
 

@@ -1,4 +1,6 @@
 # Exercise 3.29
+# Author: Noah Waterfield Price
+
 def L(x, n):
     term = x / (1. + x)
     s = term

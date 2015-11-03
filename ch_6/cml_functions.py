@@ -1,4 +1,6 @@
 # Exercise 6.20
+# Author: Noah Waterfield Price
+
 import sys
 from scitools.StringFunction import StringFunction
 

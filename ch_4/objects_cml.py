@@ -1,4 +1,6 @@
 # Exercise 4.5
+# Author: Noah Waterfield Price
+
 import sys
 val = eval(sys.argv[1])
 print '%s is a Python %s object' % (val, type(val))

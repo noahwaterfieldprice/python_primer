@@ -1,4 +1,6 @@
 # Exercise 2.22
+# Author: Noah Waterfield Price
+
 from math import sqrt
 for n in range(1, 60):
     r = 2.0

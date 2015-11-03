@@ -1,4 +1,6 @@
 # Exercise 6.18
+# Author: Noah Waterfield Price
+
 import matplotlib.pyplot as plt
 
 

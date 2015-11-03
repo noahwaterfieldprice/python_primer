@@ -1,4 +1,6 @@
 # Exercise 3.26
+# Author: Noah Waterfield Price
+
 def indicator1(x, a, b):
     if a <= x <= b:
         return 1

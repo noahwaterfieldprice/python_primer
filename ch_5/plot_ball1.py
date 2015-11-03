@@ -1,4 +1,6 @@
 # Exercise 5.9
+# Author: Noah Waterfield Price
+
 import numpy as np
 from scitools.std import plot
 

@@ -1,4 +1,6 @@
 # Exercise 3.12
+# Author: Noah Waterfield Price
+
 def hw1():
     return 'Hello, World!'
 

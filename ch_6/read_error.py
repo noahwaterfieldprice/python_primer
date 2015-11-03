@@ -1,4 +1,6 @@
 # Exercise 6.11
+# Author: Noah Waterfield Price
+
 import matplotlib.pyplot as plt
 
 infile = open('lnsum.dat', 'r')

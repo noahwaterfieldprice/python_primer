@@ -1,4 +1,6 @@
 # Exercise 6.24
+# Author: Noah Waterfield Price
+
 from numpy import zeros
 objects = [
     '""',            # empty string

@@ -1,4 +1,6 @@
 # Exercies 6.19
+# Author: Noah Waterfield Price
+
 from numpy import *
 from scitools.StringFunction import StringFunction
 import sys

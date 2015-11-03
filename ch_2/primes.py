@@ -1,4 +1,6 @@
 # Exercise 2.8
+# Author: Noah Waterfield Price
+
 primes = [2, 3, 5, 7, 11, 13]
 
 for prime in primes:

@@ -1,4 +1,6 @@
 # Exercise 1.12
+# Author: Noah Waterfield Price
+
 from math import log, pi
 
 rho = 1.038 * 1000  # Egg density (kg m^-3_

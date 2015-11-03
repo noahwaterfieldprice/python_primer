@@ -1,4 +1,6 @@
 # Exercise 5.7
+# Author: Noah Waterfield Price
+
 import numpy as np
 
 w = np.linspace(0, 3, 31)

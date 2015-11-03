@@ -1,4 +1,6 @@
 # Exercise 2.4
+# Author: Noah Waterfield Price
+
 n = 12
 i = 0
 odd_nos = []

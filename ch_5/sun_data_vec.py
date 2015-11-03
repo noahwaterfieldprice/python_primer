@@ -1,4 +1,6 @@
 # Exercise 5.8
+# Author: Noah Waterfield Price
+
 import numpy as np
 
 data = np.array([

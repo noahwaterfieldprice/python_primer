@@ -1,4 +1,6 @@
 # Exercise 7.16
+# Author: Noah Waterfield Price
+
 class Derivative_protected:
 
     def __init__(self, f, h=1E-5):

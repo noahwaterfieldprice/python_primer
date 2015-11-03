@@ -1,4 +1,6 @@
 # Exercise 4.19
+# Author: Noah Waterfield Price
+
 from math import sin, pi
 import sys
 from sinesum2 import S, f, table

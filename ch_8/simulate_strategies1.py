@@ -1,4 +1,6 @@
 # Exercise 8.11
+# Author: Noah Waterfield Price
+
 import random
 
 

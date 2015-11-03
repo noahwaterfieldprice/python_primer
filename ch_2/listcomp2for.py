@@ -1,4 +1,6 @@
 # Exercise 2.20
+# Author: Noah Waterfield Price
+
 r_list = []
 for i in range(5):
     r_list.append(10 ** i)

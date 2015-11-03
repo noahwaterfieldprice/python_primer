@@ -1,4 +1,6 @@
 # Exercise 3.18
+# Author: Noah Waterfield Price
+
 roots = [-1, 1, 2]
 
 

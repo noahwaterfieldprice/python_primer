@@ -1,4 +1,6 @@
 # Exercise 8.9
+# Author: Noah Waterfield Price
+
 from random import randint
 import sys
 

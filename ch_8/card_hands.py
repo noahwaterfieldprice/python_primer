@@ -1,4 +1,6 @@
 # Exercise 8.7
+# Author: Noah Waterfield Price
+
 from Deck import Deck
 from cards import same_rank, same_suit
 

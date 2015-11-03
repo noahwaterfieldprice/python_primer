@@ -1,4 +1,6 @@
 # Exercise 1.9a
+# Author: Noah Waterfield Price
+
 from math import sin, cos, pi
 
 x = pi / 4

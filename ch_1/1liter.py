@@ -1,4 +1,6 @@
 # Exercise 1.5
+# Author: Noah Waterfield Price
+
 iron_density = 7.8
 air_density = 0.0012
 gasoline_density = 0.67

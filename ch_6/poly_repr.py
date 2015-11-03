@@ -1,4 +1,6 @@
 # Exercise 6.16
+# Author: Noah Waterfield Price
+
 def poly1(data, x):  # Evaluate polynomial given as dict
     return sum([data[p] * x ** p for p in data])
 

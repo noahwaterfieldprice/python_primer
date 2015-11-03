@@ -1,4 +1,6 @@
 # Exercise 3.16
+# Author: Noah Waterfield Price
+
 def diff(f, x, h=1E-6):
     return 1 / (2 * h) * (f(x + h) - f(x - h))
 

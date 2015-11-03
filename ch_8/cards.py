@@ -1,4 +1,6 @@
 import random
+# Author: Noah Waterfield Price
+
 # random.seed(10)
 
 

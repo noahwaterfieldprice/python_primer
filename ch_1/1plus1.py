@@ -1,4 +1,6 @@
 # Exercise 1.1
+# Author: Noah Waterfield Price
+
 answer = 1 + 1
 print answer
 

@@ -1,4 +1,6 @@
 # Exercise 2.12
+# Author: Noah Waterfield Price
+
 s = 0
 k = 1
 M = 100

@@ -1,4 +1,6 @@
 # Exercise 9.6
+# Author: Noah Waterfield Price
+
 from math import sin, cos, radians
 
 
@@ -31,10 +33,10 @@ print p1
 """
 Sample run:
 python PolarPoint.py
-(r, theta) = (1, 90) 
- (x, y) = (0, 1) 
-(r, theta) = (1, 45) 
- (x, y) = (0.707, 0.707) 
-(r, theta) = (1, 270) 
- (x, y) = (-0, -1) 
+(r, theta) = (1, 90)
+ (x, y) = (0, 1)
+(r, theta) = (1, 45)
+ (x, y) = (0.707, 0.707)
+(r, theta) = (1, 270)
+ (x, y) = (-0, -1)
 """

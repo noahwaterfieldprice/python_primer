@@ -1,4 +1,6 @@
 # Exercise 5.3
+# Author: Noah Waterfield Price
+
 from numpy import sqrt, exp, pi, linspace
 from matplotlib.pyplot import plot, show, xlabel, ylabel
 

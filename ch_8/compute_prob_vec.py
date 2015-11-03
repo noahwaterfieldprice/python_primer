@@ -1,4 +1,6 @@
 # Exercise 8.18
+# Author: Noah Waterfield Price
+
 import numpy as np
 import operator as op
 

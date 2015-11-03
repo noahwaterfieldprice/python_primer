@@ -1,4 +1,6 @@
 # Exercise 1.4
+# Author: Noah Waterfield Price"
+
 inch = 0.0254
 foot = inch * 12
 yard = foot * 3

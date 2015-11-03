@@ -1,4 +1,6 @@
 # Exercise 6.12
+# Author: Noah Waterfield Price
+
 infile = open('stars.dat', 'r')
 data = {}
 for line in infile.readlines()[1:]:

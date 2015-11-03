@@ -1,4 +1,6 @@
 # Exercise 5.24
+# Author: Noah Waterfield Price
+
 from scitools.std import linspace, exp, sqrt, cos, log, pi, movie, plot
 
 

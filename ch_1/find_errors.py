@@ -1,4 +1,6 @@
 # Exercise 1.7
+# Author: Noah Waterfield Price
+
 from math import sin
 
 x = 1

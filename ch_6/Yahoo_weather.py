@@ -1,4 +1,6 @@
 # Exercise 6.27
+# Author: Noah Waterfield Price
+
 # -*- coding: utf-8 -*- # Need this to display degrees sign properly
 import datetime as dt
 import urllib as url

@@ -1,4 +1,6 @@
 # Exercise 3.11
+# Author: Noah Waterfield Price
+
 from math import sin, cos, pi, sqrt
 
 

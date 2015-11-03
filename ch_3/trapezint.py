@@ -1,4 +1,6 @@
 # Exercise 3.7
+# Author: Noah Waterfield Price
+
 from scipy.integrate import quad
 from scipy import exp, pi, cos, sin, log
 

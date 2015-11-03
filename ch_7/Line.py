@@ -1,4 +1,6 @@
 # Exercise 7.4
+# Author: Noah Waterfield Price
+
 class Line:
 
     def __init__(self, p1, p2):

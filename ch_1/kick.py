@@ -1,4 +1,6 @@
 # Exercise 1.11
+# Author: Noah Waterfield Price
+
 from math import pi
 
 C_D = 0.2  # Drag coefficient

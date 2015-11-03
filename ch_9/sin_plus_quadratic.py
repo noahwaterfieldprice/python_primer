@@ -1,4 +1,6 @@
 # Exercise 9.3
+# Author: Noah Waterfield Price
+
 import numpy as np
 
 

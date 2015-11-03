@@ -1,4 +1,6 @@
 # Exercise 4.12
+# Author: Noah Waterfield Price
+
 import sys
 import datetime
 

@@ -1,4 +1,6 @@
 # Exercise 5.6
+# Author: Noah Waterfield Price
+
 from numpy import cos, sin, exp, array, zeros, meshgrid
 
 x = array([0, 2])

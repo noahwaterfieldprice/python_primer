@@ -1,4 +1,6 @@
 # Exercise 2.15
+# Author: Noah Waterfield Price
+
 from math import asin, pi
 
 n = 10

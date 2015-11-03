@@ -1,4 +1,6 @@
 # Exercise 7.35
+# Author: Noah Waterfield Price
+
 class Polynomial:
 
     def __init__(self, coefficients):

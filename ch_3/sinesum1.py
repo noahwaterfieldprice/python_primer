@@ -1,4 +1,6 @@
 # Exercise 3.13
+# Author: Noah Waterfield Price
+
 from math import sin, pi
 
 

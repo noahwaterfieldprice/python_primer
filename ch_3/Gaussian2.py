@@ -1,4 +1,6 @@
 # Exercise 3.14
+# Author: Noah Waterfield Price
+
 from math import sqrt, exp, pi
 
 

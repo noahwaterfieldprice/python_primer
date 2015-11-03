@@ -1,4 +1,6 @@
 # Exercise 1.17
+# Author: Noah Waterfield Price
+
 from cmath import sqrt
 
 a = 2

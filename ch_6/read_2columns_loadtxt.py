@@ -1,4 +1,6 @@
 # Excercise 6.3
+# Author: Noah Waterfield Price
+
 import matplotlib.pyplot as plt
 import numpy as np
 

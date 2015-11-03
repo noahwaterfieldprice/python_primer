@@ -1,4 +1,6 @@
 # Exercise 6.17
+# Author: Noah Waterfield Price
+
 def diff(p):
     dp = {}
     for index, coeff in p.iteritems():

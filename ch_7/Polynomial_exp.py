@@ -1,4 +1,6 @@
 # Exercise 7.29
+# Author: Noah Waterfield Price
+
 from Polynomial import Polynomial
 from numpy import exp
 import sys

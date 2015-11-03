@@ -1,4 +1,6 @@
 # Exercise 2.14
+# Author: Noah Waterfield Price
+
 """
 This program calculated the amount of years
 it takes for an amount of money to reach 1.5

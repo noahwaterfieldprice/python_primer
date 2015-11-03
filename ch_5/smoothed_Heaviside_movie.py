@@ -1,4 +1,6 @@
 # Exercise 5.23
+# Author: Noah Waterfield Price
+
 import numpy as np
 from scitools.std import pi, sin, plot, movie
 import glob

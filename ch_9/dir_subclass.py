@@ -1,4 +1,7 @@
 # Exercise 9.1
+# Author: Noah Waterfield Price
+
+
 class Line:
 
     def __init__(self, c0, c1):

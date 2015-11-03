@@ -1,4 +1,6 @@
 # Exercise 5.38
+# Author: Noah Waterfield Price
+
 import numpy as np
 import matplotlib.pyplot as plt
 colorset = [

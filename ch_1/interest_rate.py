@@ -1,4 +1,6 @@
 # Exercise 1.6
+# Author: Noah Waterfield Price
+
 interest_rate = 5.0  # in percent
 years = 3
 initial_amount = 1000

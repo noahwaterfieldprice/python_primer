@@ -1,4 +1,6 @@
 # Exercise 2.18
+# Author: Noah Waterfield Price
+
 F = [i for i in range(0, 110, 10)]
 C = [(5. / 9) * (F[i] - 32) for i in range(len(F))]
 C_approx = [0.5 * (F[i] - 30) for i in range(len(F))]

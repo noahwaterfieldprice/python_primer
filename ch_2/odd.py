@@ -1,4 +1,6 @@
 # Exercise 2.3
+# Author: Noah Waterfield Price
+
 n = 12
 i = 0
 while i < int(round(n / 2.)):

@@ -1,4 +1,6 @@
 # Exercise 4.3
+# Author: Noah Waterfield Price
+
 import sys
 try:
     F = float(sys.argv[1])

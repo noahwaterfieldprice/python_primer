@@ -1,4 +1,6 @@
 # Exercise 6.9
+# Author: Noah Waterfield Price
+
 t1 = {}
 t1[0] = -5     # Dictionary key: value assignment
 t1[1] = 10.5

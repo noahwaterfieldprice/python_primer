@@ -1,4 +1,6 @@
 # Exercise 4.14
+# Author: Noah Waterfield Price
+
 import sys
 from math import *
 

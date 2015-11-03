@@ -1,4 +1,6 @@
 # Exercise 4.22
+# Author: Noah Waterfield Price
+
 from math import *
 import sys
 import random

@@ -1,4 +1,6 @@
 # Exercise 1.9c
+# Author: Noah Waterfield Price
+
 a = 3.3
 b = 5.3
 a2 = a ** 2

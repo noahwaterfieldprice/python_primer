@@ -1,4 +1,6 @@
 # Exercise 3.32
+# Author: Noah Waterfield Price
+
 data = [
     ('Alpha Centauri A',    4.3,  0.26,      1.56),
     ('Alpha Centauri B',    4.3,  0.077,     0.45),

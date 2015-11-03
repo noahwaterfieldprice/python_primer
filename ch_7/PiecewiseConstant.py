@@ -1,4 +1,6 @@
 # Exercise 7.25
+# Author: Noah Waterfield Price
+
 import numpy as np
 import matplotlib.pyplot as plt
 import operator

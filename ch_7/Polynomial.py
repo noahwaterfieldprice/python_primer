@@ -1,4 +1,6 @@
 import numpy
+# Author: Noah Waterfield Price
+
 
 class Polynomial:
     def __init__(self, coefficients):

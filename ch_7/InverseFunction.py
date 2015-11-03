@@ -1,4 +1,6 @@
 # Exercise 7.26
+# Author: Noah Waterfield Price
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scitools.std import wrap2callable

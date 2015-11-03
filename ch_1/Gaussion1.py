@@ -1,4 +1,6 @@
 # Exercise 1.10
+# Author: Noah Waterfield Price
+
 from math import pi, exp, sqrt
 
 m = 0

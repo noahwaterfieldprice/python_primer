@@ -1,4 +1,6 @@
 # Exercise 4.20
+# Author: Noah Waterfield Price
+
 from math import sin, pi
 from sinesum2 import table
 import argparse

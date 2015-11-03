@@ -1,4 +1,6 @@
 # Exercise 8.19
+# Author: Noah Waterfield Price
+
 import numpy as np
 
 N = 10000000

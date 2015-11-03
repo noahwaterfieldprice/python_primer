@@ -1,4 +1,6 @@
 # Exercise 4.23
+# Author: Noah Waterfield Price
+
 from math_identities_failures_cml import equal
 
 idents = [

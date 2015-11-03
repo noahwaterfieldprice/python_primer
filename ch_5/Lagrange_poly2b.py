@@ -1,4 +1,6 @@
 # Exercise 5.16
+# Author: Noah Waterfield Price
+
 from Lagrange_poly2 import graph, plt
 
 

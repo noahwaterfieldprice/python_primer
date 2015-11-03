@@ -1,4 +1,6 @@
 # Exercise 3.19
+# Author: Noah Waterfield Price
+
 def fact(n):
     ans = 1
     if n == 0 or n == 1:

@@ -1,4 +1,6 @@
 # Exercise 7.3
+# Author: Noah Waterfield Price
+
 from math import sqrt
 
 

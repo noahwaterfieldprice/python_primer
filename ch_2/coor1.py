@@ -1,4 +1,6 @@
 # Exercise 2.10
+# Author: Noah Waterfield Price
+
 h = 0.01
 x = []
 for i in range(0, 101):

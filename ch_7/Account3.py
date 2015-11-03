@@ -1,4 +1,6 @@
 # Exercise 7.12
+# Author: Noah Waterfield Price
+
 class Account3:
 
     def __init__(self, name, account_number, initial_amount):

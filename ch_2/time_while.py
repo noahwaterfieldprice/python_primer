@@ -1,4 +1,6 @@
 # Exercise 2.25
+# Author: Noah Waterfield Price
+
 import time
 
 t0 = time.time()
